@@ -13,7 +13,6 @@ import AddNewBook from "./pages/AddNewBook";
 import EditBook from "./pages/EditBook";
 
 function App() {
-  // const navigate = useNavigate();
 
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isToken, setIsToken] = useState(null);
