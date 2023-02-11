@@ -1,0 +1,41 @@
+.mx-auto {
+    margin: auto;
+  }
+  .bg-red {
+    background-color: red;
+  }
+  
+  .p-5 {
+    padding: 5px;
+  }
+  
+  .m-5 {
+    margin: 5px;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  .flex-row {
+    flex-direction: row;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .w-full {
+    width: fulll;
+  }
+  
+  .text-primary {
+    color: rgb(250, 100, 100);
+  }
+  
+  .text-secondary {
+    color: rgb(150, 100, 100);
+  }
+  

@@ -1,0 +1,44 @@
+input {
+    height: 20px;
+  }
+  label {
+    padding-left: 2px;
+  }
+  
+  .info {
+    width: 80%;
+    padding-left: 50px;
+    margin: 5px auto 5px;
+  }
+  .genres {
+    width: 20%;
+  }
+  .authors {
+    width: 20%;
+  }
+  .pub-year {
+    width: 30%;
+    margin-right: 20px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: between;
+  }
+  @media (max-width: 800px) {
+    .genres {
+      width: 50%;
+    }
+  
+    .authors {
+      width: 50%;
+    }
+    .pub-year {
+      width: 50%;
+      margin-right: 20px;
+    }
+  }
+  
